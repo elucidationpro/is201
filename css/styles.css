@@ -1,0 +1,61 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(21, 99, 225);
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/256/843/original/shimmering-dust-particles-on-black-background-free-video.jpg);
+    color: rgb(255, 200, 118);
+}
+a{
+    color: aquamarine;
+}
+a:visited{
+    color: rgb(0, 181, 181);
+}
+a:hover{
+    font-size: 120%;
+}
+img{
+    display: block;
+    width: 50%;
+    border: solid white 5px;
+    padding: 3px;
+    margin: auto;
+}
+.riz{
+    font-family: 'fira bodoni', Helvetica, avenir, futura;
+}
+.riz:hover{
+    display: block;
+    text-align: center;
+    font-size: 200%;
+}
+
+.common{
+    padding: 5px;
+    position: absolute;
+}
+.footer{
+    position: fixed;
+    background-color: black;
+    border-top: 1px white solid;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+.nav{
+    position: relative;
+    float: right;
+    z-index: 1;
+}
+.header{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: monospace;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px white solid;
+}
+.mainbody{
+    top: 70px;
+    width: 100%;
+}
